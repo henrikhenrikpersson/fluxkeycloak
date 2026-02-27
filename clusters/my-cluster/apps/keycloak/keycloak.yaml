@@ -14,5 +14,5 @@ spec:
     passwordSecret:
       name: keycloak-db-secret
       key: password
-  # http:
-  #   tlsSecret: keycloak-tls
+  http:
+    httpEnabled: true

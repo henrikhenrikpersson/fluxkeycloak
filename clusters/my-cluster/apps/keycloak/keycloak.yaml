@@ -16,3 +16,6 @@ spec:
       key: password
   http:
     httpEnabled: true
+  hostname:
+    hostname: localhost
+    hostnameStrict: false

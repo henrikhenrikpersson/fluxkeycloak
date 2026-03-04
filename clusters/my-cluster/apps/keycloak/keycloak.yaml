@@ -4,7 +4,7 @@ metadata:
   name: keycloak
   namespace: keycloak
 spec:
-  instances: 2
+  instances: 1
   db:
     vendor: postgres
     host: postgres.keycloak.svc.cluster.local
@@ -19,4 +19,4 @@ spec:
   hostname:
     strict: false
   proxy:
-    headers: forwardedHeaders
+    headers: xforwarded

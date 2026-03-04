@@ -9,7 +9,6 @@ spec:
   prune: true
   dependsOn:
     - name: keycloak-operator
-    - name: postgres
   sourceRef:
     kind: GitRepository
     name: platform-config
